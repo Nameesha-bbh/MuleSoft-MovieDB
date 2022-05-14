@@ -91,7 +91,7 @@ try:
 except sqlite3.Error as error:
     print("Failed to perform query on table movies")
     print("Error is: ",error)
-    print("If error is -> table movies already exists, then delete the movie.db file")
+    print("If error is -> table movies already exists, then delete the movie.db file and execute again")
 
 finally:
     if connection:
