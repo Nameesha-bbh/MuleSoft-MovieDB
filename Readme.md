@@ -1,6 +1,7 @@
 <h1>Steps to run the code:</h1>
 <ol type="1">
   <li>Clone the repository</li>
+  <li>Delete the movie.db file else you will get a table aldready exists error</li>
   <li>Open the code in any code editor</li>
   <li>Make sure that python is installed in your system</li>
   <li>Run the python file</li>
